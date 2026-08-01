@@ -169,7 +169,6 @@ cython_debug/
 *.zip
 *.txt
 
-tmp.ipynb
 
 # Secret data files
 .venv
@@ -178,3 +177,5 @@ tmp.ipynb
 *.json
 
 *.pkl
+
+tmp.ipynb
