@@ -178,4 +178,4 @@ cython_debug/
 
 *.pkl
 
-tmp.ipynb
+*tmp*.ipynb
