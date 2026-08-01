@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import mplfinance as fplt
-import pandas_ta as ta
+import pandas_ta_classic as ta
 import category_encoders as ce
 import scipy.stats as stats
 

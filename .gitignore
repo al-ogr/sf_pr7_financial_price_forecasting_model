@@ -169,9 +169,12 @@ cython_debug/
 *.zip
 *.txt
 
+tmp.ipynb
+
 # Secret data files
 .venv
 *.session
+*.session-journal
 *.json
 
 *.pkl
