@@ -178,5 +178,9 @@ cython_debug/
 
 *.pkl
 
+# Temp files
 *tmp*.ipynb
 *tmp*.py
+
+# Add requirements.txt
+!requirements.txt
