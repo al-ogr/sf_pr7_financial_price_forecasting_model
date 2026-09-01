@@ -150,7 +150,8 @@ class predictModels:
                         Список новостей канала, количество должно обеспечивать две новости после очистки.
                         Время публикации новости должно быть согласовано со временем свечей 
                         (в одном часовом поясе)
-        :return: float pred_to_up, pred_to_down, pred_high, pred_low (Прогнозируемые значения)
+        :return: bool pred_to_up, bool pred_to_down, float pred_high, float pred_low (Прогнозируемые значения),
+                 float close_x
         '''
         df = df.copy()
         df_msgs = df_msgs.copy()
@@ -494,6 +495,8 @@ if __name__ == "__main__":
     # Преобразование времени свечей
     df_test['dt'] = df_test['<DATE>'].astype(str) + ' ' + df_test['<TIME>'].astype(str)
     df_test['dt'] = pd.to_datetime(df_test['dt'], format="%Y%m%d %H%M%S")
+    df_test.drop(columns=['<TICKER>', '<PER>', '<DATE>', '<TIME>'], 
+                     inplace=True)
     df_test_msgs = pd.read_csv('./data/test_msg.txt', index_col='dt')
     df_test_msgs.index = pd.to_datetime(df_test_msgs.index)
     # Инициализация класса
