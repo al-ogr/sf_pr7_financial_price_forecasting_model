@@ -1,4 +1,4 @@
-<center><img src = https://raw.githubusercontent.com/AndreyRysistov/DatasetsForPandas/main/hh%20label.jpg alt="drawing" style="width:400px;"></center>
+<center><img src = https%3A%2F%2Fbrusselsmorning.com%2Fwp-content%2Fuploads%2FBxqCqezmlpEwBDomEuA1Lljyom3cw1i_cezcwprtNkUZXnT4eEvCNQL9A3TSn4edXMky8EIKx9tn98OuWxqeKIKtqX8S03k36fyvxLALc-g.jpg alt="drawing" style="width:400px;"></center>
 
 # <center>Проект: Анализ вакансий из HeadHunter</center>
 
